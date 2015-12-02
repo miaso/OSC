@@ -397,6 +397,7 @@
             this.label9.Size = new System.Drawing.Size(24, 13);
             this.label9.TabIndex = 20;
             this.label9.Text = "test";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // FormMain
             // 
