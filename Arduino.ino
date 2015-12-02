@@ -1,4 +1,4 @@
-#define ANALOG_IN 0
+//test #define ANALOG_IN 0
 #define FASTADC 1
 
 #ifndef cbi
