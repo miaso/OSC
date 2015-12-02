@@ -1,0 +1,22 @@
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\Server\bin\Debug\Server.exe.config
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\Server\bin\Debug\Server.exe
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\Server\bin\Debug\Server.pdb
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\Server\bin\Debug\ChatLibrary.dll
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\Server\bin\Debug\ChatLibrary.pdb
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\Server\obj\x86\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\Server\obj\x86\Debug\Server.Form1.resources
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\Server\obj\x86\Debug\Server.Properties.Resources.resources
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\Server\obj\x86\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\Server\obj\x86\Debug\Server.exe
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\Server\obj\x86\Debug\Server.pdb
+C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\bin\Debug\Server.exe.config
+C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\obj\x86\Debug\Server.exe
+C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\obj\x86\Debug\Server.pdb
+C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\bin\Debug\Server.exe
+C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\bin\Debug\Server.pdb
+C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\bin\Debug\ChatLibrary.dll
+C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\bin\Debug\ChatLibrary.pdb
+C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\obj\x86\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\obj\x86\Debug\Server.Form1.resources
+C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\obj\x86\Debug\Server.Properties.Resources.resources
+C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\obj\x86\Debug\Server.csproj.GenerateResource.Cache

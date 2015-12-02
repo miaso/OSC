@@ -1,0 +1,5 @@
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\ChatLibrary\bin\Debug\ChatLibrary.dll
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\ChatLibrary\bin\Debug\ChatLibrary.pdb
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\ChatLibrary\obj\Debug\ChatLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\ChatLibrary\obj\Debug\ChatLibrary.dll
+C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\ChatLibrary\obj\Debug\ChatLibrary.pdb
