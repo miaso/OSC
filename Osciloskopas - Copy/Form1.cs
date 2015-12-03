@@ -20,14 +20,14 @@ namespace Osciloskopas
        public  bool readyFlag = false;
 
         int i = 0;
-        string[] queue_receive = new string[8192];
-        string[] queue_send = new string[8192];
+        string[] queue_receive = new string[4096];
+        string[] queue_send = new string[4096];
 
-        float[] queue_sample_received = new float[8192];
-        float[] queue_sample_to_send = new float[8192];
+        float[] queue_sample_received = new float[4096];
+        float[] queue_sample_to_send = new float[4096];
 
-        public FixedSizedQueue<double> queue_main = new FixedSizedQueue<double> { Limit = 8192 };
-        public FixedSizedQueue<double> queue_received = new FixedSizedQueue<double> { Limit = 8192 };
+        public FixedSizedQueue<double> queue_main = new FixedSizedQueue<double> { Limit = 4096 };
+        public FixedSizedQueue<double> queue_received = new FixedSizedQueue<double> { Limit = 4096 };
 
 
         public frmClient()
