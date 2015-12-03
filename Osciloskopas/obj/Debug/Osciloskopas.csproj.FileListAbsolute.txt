@@ -55,14 +55,13 @@ C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\bin\
 C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\obj\Debug\Osciloskopas.exe
 C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\obj\Debug\Osciloskopas.pdb
 C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\bin\Debug\Osciloskopas.exe.config
-C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.exe
-C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.pdb
 C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\bin\Debug\Osciloskopas.exe
 C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\bin\Debug\Osciloskopas.pdb
-C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.csprojResolveAssemblyReference.cache
 C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.AnalysisForm.resources
 C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.frmClient.resources
 C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.FormMain.resources
 C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.TFftAlgorithm.resources
 C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.Properties.Resources.resources
 C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.csproj.GenerateResource.Cache
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.exe
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.pdb

@@ -18,6 +18,7 @@ namespace Osciloskopas
         ReceiveClient rc = null;
         string myName;
        public  bool readyFlag = false;
+       public string lastName;
 
         int i = 0;
         string[] queue_receive = new string[4096];
@@ -56,7 +57,8 @@ namespace Osciloskopas
             Random random = new Random();
             int randomNumber = random.Next(0, 100);
 
-            myName = Environment.UserName + "@" + System.Environment.MachineName + randomNumber;
+            //myName = Environment.UserName + "@" + System.Environment.MachineName + randomNumber;
+            myName = Environment.UserName + randomNumber;
             txtUserName.Text = myName;
             txtUserName.Enabled = false;
 
@@ -79,7 +81,7 @@ namespace Osciloskopas
 
             i++;
             queue_received.Enqueue(Double.Parse(msg));
-
+            lastName = sender;
             if (i == 4096)
             {
                 load_btn.Enabled = true;
@@ -87,6 +89,7 @@ namespace Osciloskopas
                 
             }
         }
+
 
         void rc_NewNames(object sender, List<string> names)
         {
@@ -132,6 +135,7 @@ namespace Osciloskopas
         private void load_btn_Click(object sender, EventArgs e)
         {
             readyFlag = true;
+            
 
         }
 

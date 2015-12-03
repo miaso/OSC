@@ -106,15 +106,14 @@ namespace Osciloskopas
             }
 
         }
-
+  
         private void timer1_Tick(object sender, EventArgs e)
         {
 
             if (f2.readyFlag == true)
             {
-
-                chart1.Series[2].Points.Clear();
-
+                makeNewSeries(f2.lastName, "");
+                chart1.Series.FindByName(f2.lastName).Points.Clear();
                 queue.Limit = 4096;
                 chart1.ChartAreas[0].AxisX.MajorGrid.Interval = 4096/6;
                 for (int i = 0; i < f2.queue_received.Limit; ++i)
@@ -240,6 +239,25 @@ namespace Osciloskopas
             }
 
         }
+                void makeNewSeries(String name, string data)
+        {
+            Random randonGen = new Random();
+     
+
+            chart1.Series.Add(new System.Windows.Forms.DataVisualization.Charting.Series
+            {
+                Name = name,
+                Color = Color.FromArgb(randonGen.Next(255), randonGen.Next(255),
+            randonGen.Next(255)),
+                IsVisibleInLegend = true,
+                IsXValueIndexed = true,
+                IsValueShownAsLabel = true,
+                ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine
+            });
+                    
+        }
+
+
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -256,8 +274,13 @@ namespace Osciloskopas
 
         }
 
+        private void label5_Click(object sender, EventArgs e)
+        {
+            makeNewSeries("newname","sdfsdf");
+        }
 
 
+      
 
     }
 }
