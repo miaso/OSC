@@ -112,11 +112,12 @@ namespace Osciloskopas
        
             if (f2.readyFlag == true)
             {
-          
+                chart1.ChartAreas[0].AxisX.MajorGrid.Interval = 4096 / 6;
+                queue.Limit = 4096;
                 chart1.Series[2].Points.Clear();
        
-                queue.Limit = 4096;
-                chart1.ChartAreas[0].AxisX.MajorGrid.Interval = 4096;
+
+ 
                 for (int i = 0; i < f2.queue_received.Limit; ++i)
                 {
                     double value = f2.queue_received.Get(i);
