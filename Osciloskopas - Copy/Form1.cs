@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.ServiceModel;
 using Osciloskopas.ChatService;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace Osciloskopas
 {
@@ -16,17 +17,17 @@ namespace Osciloskopas
     {
         ReceiveClient rc = null;
         string myName;
-        string sender_name;
+       public  bool readyFlag = false;
 
         int i = 0;
-        string[] queue_receive = new string[4096];
-        string[] queue_send = new string[4096];
+        string[] queue_receive = new string[8192];
+        string[] queue_send = new string[8192];
 
-        float[] queue_sample_received = new float[4096];
-        float[] queue_sample_to_send = new float[4096];
+        float[] queue_sample_received = new float[8192];
+        float[] queue_sample_to_send = new float[8192];
 
-        public FixedSizedQueue<double> queue_main = new FixedSizedQueue<double> { Limit = 4096 };
-        public FixedSizedQueue<double> queue_received = new FixedSizedQueue<double> { Limit = 4096 };
+        public FixedSizedQueue<double> queue_main = new FixedSizedQueue<double> { Limit = 8192 };
+        public FixedSizedQueue<double> queue_received = new FixedSizedQueue<double> { Limit = 8192 };
 
 
         public frmClient()
@@ -52,8 +53,8 @@ namespace Osciloskopas
 
         private void frmClient_Load(object sender, EventArgs e)
         {
-            myName = "Receiver"; 
-                //Environment.UserName + "@" + System.Environment.MachineName;
+            myName = "rec";
+			//Environment.UserName + "@" + System.Environment.MachineName;
             txtUserName.Text = myName;
             txtUserName.Enabled = false;
 
@@ -73,16 +74,16 @@ namespace Osciloskopas
 
         void rc_ReceiveMsg(string sender, string msg)
         {
-            sender_name = sender;
+
             i++;
             queue_received.Enqueue(Double.Parse(msg));
 
             if (i == 4096)
             {
                 load_btn.Enabled = true;
-                txtMsgs.Text += "Samples received: " + i.ToString() + " from " + sender_name;
-            }
             
+                
+            }
         }
 
         void rc_NewNames(object sender, List<string> names)
@@ -117,13 +118,19 @@ namespace Osciloskopas
             }
         }
 
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            /*for (int j = 0; j < 200; j++)
+             {
+                 txtMsgs.Text += queue_received.Get(j).ToString();
+             }*/
+            txtMsgs.Text += "Samples received: " + i.ToString() + " from " + sender;
+        }
+
         private void load_btn_Click(object sender, EventArgs e)
         {
-            FormMain f3 = new FormMain();
-            f3.queue = queue_received;
-            f3.queue.Limit = queue_received.Limit;
-            f3.Show();
-            f3.fill_the_charts();
+            readyFlag = true;
+
         }
 
     }

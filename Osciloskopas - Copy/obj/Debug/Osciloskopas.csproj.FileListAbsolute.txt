@@ -43,15 +43,38 @@ C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas-4fa94532
 C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas-4fa94532b7504677383141f1f71df587639670a0\Osciloskopas\obj\Debug\Osciloskopas.csproj.GenerateResource.Cache
 C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas-4fa94532b7504677383141f1f71df587639670a0\Osciloskopas\obj\Debug\Osciloskopas.exe
 C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas-4fa94532b7504677383141f1f71df587639670a0\Osciloskopas\obj\Debug\Osciloskopas.pdb
-C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Osciloskopas - Copy\bin\Debug\Osciloskopas.exe.config
-C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Osciloskopas - Copy\obj\Debug\Osciloskopas.exe
-C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Osciloskopas - Copy\obj\Debug\Osciloskopas.pdb
-C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Osciloskopas - Copy\bin\Debug\Osciloskopas.exe
-C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Osciloskopas - Copy\bin\Debug\Osciloskopas.pdb
-C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Osciloskopas - Copy\obj\Debug\Osciloskopas.csprojResolveAssemblyReference.cache
-C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Osciloskopas - Copy\obj\Debug\Osciloskopas.AnalysisForm.resources
-C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Osciloskopas - Copy\obj\Debug\Osciloskopas.frmClient.resources
-C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Osciloskopas - Copy\obj\Debug\Osciloskopas.FormMain.resources
-C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Osciloskopas - Copy\obj\Debug\Osciloskopas.TFftAlgorithm.resources
-C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Osciloskopas - Copy\obj\Debug\Osciloskopas.Properties.Resources.resources
-C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Osciloskopas - Copy\obj\Debug\Osciloskopas.csproj.GenerateResource.Cache
+C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\obj\Debug\Osciloskopas.AnalysisForm.resources
+C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\obj\Debug\Osciloskopas.frmClient.resources
+C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\obj\Debug\Osciloskopas.FormMain.resources
+C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\obj\Debug\Osciloskopas.TFftAlgorithm.resources
+C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\obj\Debug\Osciloskopas.Properties.Resources.resources
+C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\obj\Debug\Osciloskopas.csproj.GenerateResource.Cache
+C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\bin\Debug\Osciloskopas.exe.config
+C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\bin\Debug\Osciloskopas.exe
+C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\bin\Debug\Osciloskopas.pdb
+C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\obj\Debug\Osciloskopas.exe
+C:\Users\IdeaPad\Downloads\Osciloskopas-master(1)\Oscilloskope\Osciloskopas\obj\Debug\Osciloskopas.pdb
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\bin\Debug\Osciloskopas.exe.config
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.exe
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.pdb
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\bin\Debug\Osciloskopas.exe
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\bin\Debug\Osciloskopas.pdb
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.csprojResolveAssemblyReference.cache
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.AnalysisForm.resources
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.frmClient.resources
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.FormMain.resources
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.TFftAlgorithm.resources
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.Properties.Resources.resources
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.csproj.GenerateResource.Cache
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas - Copy\bin\Debug\Osciloskopas.exe.config
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas - Copy\obj\Debug\Osciloskopas.exe
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas - Copy\obj\Debug\Osciloskopas.pdb
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas - Copy\bin\Debug\Osciloskopas.exe
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas - Copy\bin\Debug\Osciloskopas.pdb
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas - Copy\obj\Debug\Osciloskopas.csprojResolveAssemblyReference.cache
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas - Copy\obj\Debug\Osciloskopas.AnalysisForm.resources
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas - Copy\obj\Debug\Osciloskopas.frmClient.resources
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas - Copy\obj\Debug\Osciloskopas.FormMain.resources
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas - Copy\obj\Debug\Osciloskopas.TFftAlgorithm.resources
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas - Copy\obj\Debug\Osciloskopas.Properties.Resources.resources
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas - Copy\obj\Debug\Osciloskopas.csproj.GenerateResource.Cache

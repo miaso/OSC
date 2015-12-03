@@ -24,11 +24,11 @@ namespace Osciloskopas
         frmClient f2 = new frmClient();
         SerialHandler mySerial;
 
-        double offset=0;
+        double offset = 0;
         double vDivAmp = 1;
         int dummy;
         Thread readThread;
-        
+
         public FormMain()
         {
             InitializeComponent();
@@ -80,14 +80,14 @@ namespace Osciloskopas
         static int sampleCounter = 0;
         public FixedSizedQueue<double> queue = new FixedSizedQueue<double> { Limit = 4096 };
         bool stop = true;
-        
+
         public void DoRead()
         {
             while (!stop)
             {
                 sampleCounter++;
                 double value = mySerial.ReadData();
-                
+
                 queue.Enqueue(value);
 
             }
@@ -95,6 +95,7 @@ namespace Osciloskopas
 
         private void timerChart_Tick(object sender, EventArgs e)
         {
+
             chart1.Series[0].Points.Clear();
             chart1.Series[1].Points.Clear();
             for (int i = 0; i < queue.Limit; ++i)
@@ -108,9 +109,25 @@ namespace Osciloskopas
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+
+            if (f2.readyFlag == true)
+            {
+
+                chart1.Series[2].Points.Clear();
+
+                queue.Limit = 4096;
+                chart1.ChartAreas[0].AxisX.MajorGrid.Interval = 4096;
+                for (int i = 0; i < f2.queue_received.Limit; ++i)
+                {
+                    double value = f2.queue_received.Get(i);
+
+                    chart1.Series[2].Points.AddXY(i, value);
+                }
+                f2.readyFlag = false;
+            }
             if (!stop)
             {
-                label1.Text ="Samples per second: "+ sampleCounter.ToString();
+                label1.Text = "Samples per second: " + sampleCounter.ToString();
                 sampleCounter = 0;
                 double Max = queue.GetMax();
                 double Min = queue.GetMin();
@@ -118,7 +135,7 @@ namespace Osciloskopas
                 label3.Text = "Max: " + Max;
                 label4.Text = "Min: " + Min;
             }
-     
+
         }
 
         private void trackBar1_Scroll(object sender, EventArgs e)
@@ -140,7 +157,7 @@ namespace Osciloskopas
 
         private void trackBar3_Scroll(object sender, EventArgs e)
         {
-            vDivAmp = (Double)trackBar3.Value/2;
+            vDivAmp = (Double)trackBar3.Value / 2;
         }
 
         private void fft_btn_Click(object sender, EventArgs e)
@@ -148,7 +165,7 @@ namespace Osciloskopas
             //stabdom viska
             buttonStart.Text = "Start";
             stop = true;
-            timer1.Enabled = false;
+            //timer1.Enabled = false;
             timerChart.Enabled = false;
             mySerial.Close();
             f1.qLimit = queue.Limit;
@@ -162,7 +179,7 @@ namespace Osciloskopas
             f2.TopLevel = false;
             f2.AutoScroll = true;
             f2.FormBorderStyle = FormBorderStyle.None;
-
+            timer1.Enabled = true;
             panel1.Controls.Add(f2);
             f2.Show();
             f2.queue_main = queue;
@@ -239,7 +256,8 @@ namespace Osciloskopas
 
         }
 
-  
+
+
 
     }
 }

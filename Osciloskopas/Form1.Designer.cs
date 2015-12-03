@@ -49,7 +49,7 @@
             // 
             this.btnSend.Location = new System.Drawing.Point(4, 85);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(83, 53);
+            this.btnSend.Size = new System.Drawing.Size(83, 24);
             this.btnSend.TabIndex = 2;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
@@ -94,16 +94,17 @@
             this.load_btn.Enabled = false;
             this.load_btn.Location = new System.Drawing.Point(90, 85);
             this.load_btn.Name = "load_btn";
-            this.load_btn.Size = new System.Drawing.Size(90, 53);
+            this.load_btn.Size = new System.Drawing.Size(90, 24);
             this.load_btn.TabIndex = 8;
             this.load_btn.Text = "Load Sample";
             this.load_btn.UseVisualStyleBackColor = true;
+            this.load_btn.Click += new System.EventHandler(this.load_btn_Click);
             // 
             // frmClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 142);
+            this.ClientSize = new System.Drawing.Size(464, 111);
             this.Controls.Add(this.load_btn);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtUserName);

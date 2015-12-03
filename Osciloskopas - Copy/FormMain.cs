@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.ServiceModel;
+using Osciloskopas.Properties;
 //using Client.ChatService;
 
 
@@ -34,7 +35,12 @@ namespace Osciloskopas
             mySerial = new SerialHandler("COM6");
             chart1.Series[0].BorderWidth = 2;
             chart1.Series[1].BorderWidth = 2;
+            if (Settings.Default.LastCom != null)
+            {
+                textBox1.Text = Settings.Default.LastCom;
+            }
         }
+
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
@@ -52,6 +58,7 @@ namespace Osciloskopas
                         timer1.Enabled = true;
                         readThread = new Thread(DoRead);
                         readThread.Start();
+                        Settings.Default.LastCom = textBox1.Text;
                     }
                 }
                 else
@@ -88,6 +95,7 @@ namespace Osciloskopas
 
         private void timerChart_Tick(object sender, EventArgs e)
         {
+
             chart1.Series[0].Points.Clear();
             chart1.Series[1].Points.Clear();
             for (int i = 0; i < queue.Limit; ++i)
@@ -97,22 +105,26 @@ namespace Osciloskopas
                 chart1.Series[1].Points.AddXY(i, offset);
             }
 
-        }
-
-       public void fill_the_charts()
-        {
-            chart1.Series[0].Points.Clear();
-            chart1.Series[1].Points.Clear();
-            for (int i = 0; i < queue.Limit; ++i)
-            {
-                double value = queue.Get(i);
-                chart1.Series[0].Points.AddXY(i, value * vDivAmp + offset);
-                chart1.Series[1].Points.AddXY(i, offset);
-            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+       
+            if (f2.readyFlag == true)
+            {
+          
+                chart1.Series[2].Points.Clear();
+       
+                queue.Limit = 4096;
+                chart1.ChartAreas[0].AxisX.MajorGrid.Interval = 4096;
+                for (int i = 0; i < f2.queue_received.Limit; ++i)
+                {
+                    double value = f2.queue_received.Get(i);
+                 
+                    chart1.Series[2].Points.AddXY(i, value);
+                }
+                f2.readyFlag = false;
+            }
             if (!stop)
             {
                 label1.Text ="Samples per second: "+ sampleCounter.ToString();
@@ -153,7 +165,7 @@ namespace Osciloskopas
             //stabdom viska
             buttonStart.Text = "Start";
             stop = true;
-            timer1.Enabled = false;
+            //timer1.Enabled = false;
             timerChart.Enabled = false;
             mySerial.Close();
             f1.qLimit = queue.Limit;
@@ -164,7 +176,11 @@ namespace Osciloskopas
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            f2.TopLevel = false;
+            f2.AutoScroll = true;
+            f2.FormBorderStyle = FormBorderStyle.None;
+            timer1.Enabled = true;
+            panel1.Controls.Add(f2);
             f2.Show();
             f2.queue_main = queue;
             f2.queue_main.Limit = queue.Limit;
@@ -239,6 +255,7 @@ namespace Osciloskopas
 
 
         }
+
 
   
 

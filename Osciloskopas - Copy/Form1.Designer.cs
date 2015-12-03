@@ -33,6 +33,7 @@
             this.txtMsgs = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.load_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -41,14 +42,14 @@
             this.lstClients.FormattingEnabled = true;
             this.lstClients.Location = new System.Drawing.Point(340, 31);
             this.lstClients.Name = "lstClients";
-            this.lstClients.Size = new System.Drawing.Size(120, 199);
+            this.lstClients.Size = new System.Drawing.Size(120, 43);
             this.lstClients.TabIndex = 0;
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(1, 234);
+            this.btnSend.Location = new System.Drawing.Point(4, 85);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(83, 53);
+            this.btnSend.Size = new System.Drawing.Size(83, 24);
             this.btnSend.TabIndex = 2;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
@@ -59,7 +60,7 @@
             this.txtMsgs.Location = new System.Drawing.Point(1, 31);
             this.txtMsgs.Multiline = true;
             this.txtMsgs.Name = "txtMsgs";
-            this.txtMsgs.Size = new System.Drawing.Size(333, 199);
+            this.txtMsgs.Size = new System.Drawing.Size(333, 48);
             this.txtMsgs.TabIndex = 3;
             // 
             // label1
@@ -75,15 +76,25 @@
             // 
             this.txtUserName.Location = new System.Drawing.Point(70, 5);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(390, 20);
+            this.txtUserName.Size = new System.Drawing.Size(264, 20);
             this.txtUserName.TabIndex = 5;
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.Location = new System.Drawing.Point(340, 2);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(120, 24);
+            this.btnLogin.TabIndex = 6;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // load_btn
             // 
             this.load_btn.Enabled = false;
-            this.load_btn.Location = new System.Drawing.Point(90, 234);
+            this.load_btn.Location = new System.Drawing.Point(90, 85);
             this.load_btn.Name = "load_btn";
-            this.load_btn.Size = new System.Drawing.Size(90, 53);
+            this.load_btn.Size = new System.Drawing.Size(90, 24);
             this.load_btn.TabIndex = 8;
             this.load_btn.Text = "Load Sample";
             this.load_btn.UseVisualStyleBackColor = true;
@@ -93,8 +104,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 299);
+            this.ClientSize = new System.Drawing.Size(464, 111);
             this.Controls.Add(this.load_btn);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtMsgs);
@@ -115,6 +127,7 @@
         private System.Windows.Forms.TextBox txtMsgs;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button load_btn;
     }
 }

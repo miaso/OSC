@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.ServiceModel;
 using Osciloskopas.ChatService;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace Osciloskopas
 {
@@ -16,6 +17,7 @@ namespace Osciloskopas
     {
         ReceiveClient rc = null;
         string myName;
+       public  bool readyFlag = false;
 
         int i = 0;
         string[] queue_receive = new string[8192];
@@ -78,6 +80,8 @@ namespace Osciloskopas
             if (i == 4096)
             {
                 load_btn.Enabled = true;
+            
+                
             }
         }
 
@@ -120,6 +124,12 @@ namespace Osciloskopas
                  txtMsgs.Text += queue_received.Get(j).ToString();
              }*/
             txtMsgs.Text += "Samples received: " + i.ToString() + " from " + sender;
+        }
+
+        private void load_btn_Click(object sender, EventArgs e)
+        {
+            readyFlag = true;
+
         }
 
     }
