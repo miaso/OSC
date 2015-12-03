@@ -3,3 +3,8 @@ C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\ChatLibrary\bin\Debug\ChatL
 C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\ChatLibrary\obj\Debug\ChatLibrary.csprojResolveAssemblyReference.cache
 C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\ChatLibrary\obj\Debug\ChatLibrary.dll
 C:\Users\Kristijonas\Downloads\ChatServer\ChatServer\ChatLibrary\obj\Debug\ChatLibrary.pdb
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\ChatLibrary\bin\Debug\ChatLibrary.dll
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\ChatLibrary\bin\Debug\ChatLibrary.pdb
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\ChatLibrary\obj\Debug\ChatLibrary.csprojResolveAssemblyReference.cache
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\ChatLibrary\obj\Debug\ChatLibrary.dll
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\ChatLibrary\obj\Debug\ChatLibrary.pdb

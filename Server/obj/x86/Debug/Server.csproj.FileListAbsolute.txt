@@ -20,3 +20,14 @@ C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\o
 C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\obj\x86\Debug\Server.Form1.resources
 C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\obj\x86\Debug\Server.Properties.Resources.resources
 C:\Users\Kristijonas\Documents\Visual Studio 2013\Projects\Osciloskopas\Server\obj\x86\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Server\bin\Debug\Server.exe.config
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Server\obj\x86\Debug\Server.exe
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Server\obj\x86\Debug\Server.pdb
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Server\bin\Debug\Server.exe
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Server\bin\Debug\Server.pdb
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Server\bin\Debug\ChatLibrary.dll
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Server\bin\Debug\ChatLibrary.pdb
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Server\obj\x86\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Server\obj\x86\Debug\Server.Form1.resources
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Server\obj\x86\Debug\Server.Properties.Resources.resources
+C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Server\obj\x86\Debug\Server.csproj.GenerateResource.Cache

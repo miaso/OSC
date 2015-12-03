@@ -251,13 +251,14 @@ namespace Osciloskopas
 
             chart1.Series.Add(new System.Windows.Forms.DataVisualization.Charting.Series
             {
+                 ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine,
                 Name = name,
                 Color = randomColor,
-                LabelForeColor=randomColor,
+                //LabelForeColor=randomColor,
                 IsVisibleInLegend = true,
                 IsXValueIndexed = true,
-                IsValueShownAsLabel = true,
-                ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine
+                IsValueShownAsLabel = true
+               
             });
                     
         }

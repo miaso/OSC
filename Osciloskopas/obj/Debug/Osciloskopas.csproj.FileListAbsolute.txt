@@ -65,4 +65,3 @@ C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debu
 C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.csproj.GenerateResource.Cache
 C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.exe
 C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.pdb
-C:\Users\IdeaPad\Desktop\Osciloskopas-new\Oscilloskope\OSC\Osciloskopas\obj\Debug\Osciloskopas.csprojResolveAssemblyReference.cache
