@@ -23,7 +23,10 @@ namespace Osciloskopas
         AnalysisForm f1 = new AnalysisForm();
         frmClient f2 = new frmClient();
         SerialHandler mySerial;
-
+       static Random randomGen = new Random();
+       static KnownColor[] names = (KnownColor[])Enum.GetValues(typeof(KnownColor));
+       // static KnownColor randomColorName = names[randomGen.Next(names.Length)];
+       
         double offset = 0;
         double vDivAmp = 1;
         int dummy;
@@ -39,6 +42,7 @@ namespace Osciloskopas
             {
                 textBox1.Text = Settings.Default.LastCom;
             }
+            
         }
 
 
@@ -241,14 +245,15 @@ namespace Osciloskopas
         }
                 void makeNewSeries(String name, string data)
         {
-            Random randonGen = new Random();
+            KnownColor randomColorName = names[randomGen.Next(names.Length)];
+            Color randomColor = Color.FromKnownColor(randomColorName);
      
 
             chart1.Series.Add(new System.Windows.Forms.DataVisualization.Charting.Series
             {
                 Name = name,
-                Color = Color.FromArgb(randonGen.Next(255), randonGen.Next(255),
-            randonGen.Next(255)),
+                Color = randomColor,
+                LabelForeColor=randomColor,
                 IsVisibleInLegend = true,
                 IsXValueIndexed = true,
                 IsValueShownAsLabel = true,

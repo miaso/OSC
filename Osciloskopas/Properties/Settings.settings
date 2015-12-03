@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="LastCom" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">3</Value>
     </Setting>
   </Settings>
 </SettingsFile>
